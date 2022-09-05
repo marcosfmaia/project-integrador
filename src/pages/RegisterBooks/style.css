@@ -1,0 +1,121 @@
+.title__register {
+    font-size: 32px;
+    text-align: center;
+    border-bottom: 4px solid var(--primaryColor);
+    margin: auto;
+    margin-block: 30px 20px;
+    padding-block: 5px;
+}  
+
+.register__books {
+    padding-inline: 40px;
+}
+
+.content__info-title {
+    display: flex;
+    align-items: baseline;
+}
+
+.title__book {
+    color: var(--primaryColor);
+    font-size: 22px;
+    margin: 30px 10px 0;
+}
+
+.input__title-boook {
+    all: unset;
+    width: 325px;
+    background-color: #F7F9F9;
+    padding: 10px 20px 10px ;
+    border-radius: 8px;
+}
+
+.content-image__book{
+    margin: 20px 20px 0;
+}
+
+.img__upload {
+    max-width: 300px;
+}
+
+
+.file__image-book {
+    display: none;
+}
+
+.choose__file-book {
+    display: block;
+    width: 200px;
+    background-color: var(--primaryColor);
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 10px;
+    margin-block: 40px;
+    cursor: pointer;
+}
+
+.description-book {
+    display: block;
+    font-size: 16px;
+    text-align: justify;
+    margin: 5px 20px 0;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.description__text-book {
+    display: block;
+    margin: 5px 0px 10px;
+}
+
+.input__description-book {
+    all: unset; 
+    display: block;
+    height: 200px;
+    width: 550px;
+    background-color: var(--white);
+    padding: 10px 20px 10px ;
+    border-radius: 8px;
+
+    overflow-wrap: break-word;
+}
+
+.content__location{
+    margin: 40px 20px;
+}
+
+.location__icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.subtitle__location {
+    border: none;
+    margin: 0;
+}
+
+.origin__location {
+    font-size: 20px;
+    margin: 10px 40px 0;
+}
+
+.location-origin__book {
+    margin: 10px 40px 0;
+}
+
+.content__btn  {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-register__book {
+   all: unset;
+   background-color: var(--primaryColor);
+   color: var(--white);
+   font-weight: bold;
+   border-radius: 8px;
+   margin: 20px;
+   padding: 9px 50px;
+   cursor: pointer;
+}
