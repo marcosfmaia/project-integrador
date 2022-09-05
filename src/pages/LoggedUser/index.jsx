@@ -17,9 +17,6 @@ export default function Help () {
             <div className="card">
             
             <Card/>
-            <Card/>
-            <Card/>
-            <Mocks />
             
             </div>
             
